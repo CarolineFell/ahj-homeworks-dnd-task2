@@ -40,6 +40,5 @@ loadedImage.addEventListener('click', (event) => {
   if (event.target.className === 'delete') {
     const itemElemnt = event.target.closest('.loaded-image');
     loadedImage.removeChild(itemElemnt);
-    console.log('delete')
   }
 });
